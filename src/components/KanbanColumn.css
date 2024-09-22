@@ -1,0 +1,40 @@
+.kanban-column {
+    background-color: #f4f5f8;
+    border-radius: 8px;
+    padding: 12px;
+    min-width: 0;
+  }
+  
+  .column-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .column-header h2 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .ticket-count {
+    margin-left: 8px;
+    font-size: 14px;
+    color: #6b6b6b;
+  }
+  
+  .add-button, .more-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #6b6b6b;
+    margin-left: auto;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }

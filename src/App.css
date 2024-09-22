@@ -1,0 +1,12 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f4f5f8;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
